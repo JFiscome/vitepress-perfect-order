@@ -44,8 +44,8 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '用户下单 / 管理员代报', link: `${DOCUMENT_SUFFIX}/core/order` },
-          { text: '多仓库配货', link: '/item-d' },
-          { text: '配送列表信息', link: '/item-d' },
+          { text: '🔥🔥🔥多仓库配货', link: `${DOCUMENT_SUFFIX}/core/warehouse` },
+          { text: '配送列表信息', link: `${DOCUMENT_SUFFIX}/core/express` },
           { text: '退货上报', link: '/item-d' },
           { text: '全自动化账单', link: '/item-d' },
           { text: '库存管理', link: '/item-d' },
