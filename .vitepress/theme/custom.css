@@ -1,0 +1,55 @@
+.custom-page-class {
+  background-image: linear-gradient(90deg,
+      rgba(255, 11, 109, 0.04) 3%,
+      transparent 0),
+    linear-gradient(1turn, rgba(176, 163, 26, 0.04) 3%, transparent 0);
+  background-size: 20px 20px;
+  background-position: 50%;
+  font: 1em sans-serif;
+}
+
+/* .vp-doc blockquote {
+  display: block;
+  position: relative;
+  font-size: 0.9em;
+  overflow: auto;
+  border: solid #9d4dff69;
+  border-radius: 5px;
+
+  padding: 15px 30px 15px 20px;
+  margin: 20px 0;
+  background: rgba(242, 242, 252, 0.2);
+} */
+
+.inline-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2px;
+  background-color: antiquewhite;
+  padding: 8px 2px;
+  border-radius: 4px;
+}
+
+.highlight-text {
+  font-weight: 600;
+  color: var(--vp-c-brand-1);
+}
+
+.underline-text {
+  color: var(--vp-c-brand-2);
+  text-decoration: underline;
+}
+
+.fan-tips {
+  padding: 4px 0px 8px 0px;
+  color: #25262A;
+  font-size: 13px;
+  color: blue;
+  border-bottom: 1px solid #ddd;
+}
+
+.scale-9 {
+  transform: scale(.9);
+}
