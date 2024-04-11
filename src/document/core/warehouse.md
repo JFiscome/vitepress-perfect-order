@@ -47,6 +47,19 @@ pageClass: custom-page-class
 
 > 那么，工厂好管家针对配货员自主的<span class="weight-text"> 🚀 “ 统筹能力的灵活度很高 ” </span>。配货员可以根据自己的需求，一次性统筹全部内容，也可以只统筹多个用户、多笔订单，或者仅仅统筹选中的某几笔订单！！这个根据当时的实际情况而定。
 
+::: tip
+🎉 配货统筹有点总结：
+
+```
+- 1. 多笔订单自动合并
+- 2. A->B->C 固定线路配货，不走回头路
+- 3. 数量校准快速，提高了工作准确性
+- 4. 断码上报简便、配货信息简单化
+- 5. 清晰的图片、准确的数据、简易的辅助信息！
+
+这些有效的配货方案，明显提高了配货过程的效率和准确度，同时减轻了配货员的工作量 🎉 🎉 🎉 。
+:::
+
 ## Lack . 断码上报
 
 由于我们针对部分现货工厂的特殊性质，很多热门款的补货可能不及时。所以我们客户有时候上报的订单可能存在断码！那么在之前人工去处理这些数据是非常麻烦的。现在假设我们有部分商品断码，我们只需要选择对应的商品卡片，点击<span class="highlight-text"> 【 断码上报 】 </span>填写断码的商品即可！后续我们的<span class="underline-text"> 每日账单、商品库存 </span>数据会根据我们上报的断码信息<span class="underline-text"> 全自动核减 </span>、我们管理员完全可以省下很多精力专注于其他业务上！
@@ -64,8 +77,10 @@ pageClass: custom-page-class
 <div class="center-text">一键完成 </div>
 
 ```
+
 “一键完成” 或者完成的订单会自动进入到配货大厅的核实中心里面
 通常这一步都是装车/配送之前对数量进行二次核实！以确保配送商品的准确性。
+
 ```
 
 ## 核实中心 ✅
@@ -82,7 +97,7 @@ pageClass: custom-page-class
 
 ::: info
 
-<div class="fan-tips"> 小分享 · 对于已经使用工厂好管家的工厂反馈来说：核实功能通常在列表页核实正确数量没错基本就不会出错！突出一个 <strong style="color:red;">“ 给力 💪💪 ！核实正确的商品会自动进入到  <a href="/src/document/core/express" style="font-size:16px;color:blue;">【 🚚  配送列表信息】</a> ”</strong> </div> 
+<div class="fan-tips"> 小分享 · 对于已经使用工厂好管家的工厂反馈来说：核实功能通常在列表页核实正确数量没错基本就不会出错！突出一个 <strong style="color:red;">“ 给力 💪💪 ！核实正确的商品会自动进入到  <a href="/src/document/core/express" style="font-size:16px;color:blue;">【 🚚  配送列表信息】</a> ”</strong> </div>
 :::
 
 ## 订单自动拆分！
@@ -101,3 +116,4 @@ pageClass: custom-page-class
     <img src="/public/img/cook/cook-3.png" alt="" class="fancybox" data-fancybox="gallery" width="24%">
     <img src="/public/img/cook/cook-4.png" alt="" class="fancybox" data-fancybox="gallery" width="24%">
 </div>
+```
