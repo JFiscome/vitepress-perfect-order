@@ -76,3 +76,16 @@
   color: darkgreen;
   letter-spacing: 2px;
 }
+
+
+.green-text {
+  color: darkgreen;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.red-text {
+  color: firebrick;
+  font-weight: 800;
+  font-size: 16px;
+}
