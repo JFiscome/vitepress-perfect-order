@@ -34,24 +34,60 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '好管家的 由来？', link: `${DOCUMENT_SUFFIX}/from/reason` },
-          { text: '传统配货模式', link: `${DOCUMENT_SUFFIX}/from/other` },
-          { text: '🚀🚀🚀 好管家配货模式', link: `${DOCUMENT_SUFFIX}/from/us` },
+          { text: '传统运营模式 VS 好管家模式 ', link: `${DOCUMENT_SUFFIX}/from/other` },
           { text: '功能思维导图', link: `${DOCUMENT_SUFFIX}/from/xmind` },
         ]
       },
       {
-        text: '快速开始',
+        text: '快速开始 - 核心功能',
         collapsed: false,
         items: [
-          { text: '用户下单 / 管理员代报', link: `${DOCUMENT_SUFFIX}/core/order` },
+          { text: '报货下单', link: `${DOCUMENT_SUFFIX}/core/order` },
           { text: '🔥🔥🔥多仓库配货', link: `${DOCUMENT_SUFFIX}/core/warehouse` },
           { text: '配送列表信息', link: `${DOCUMENT_SUFFIX}/core/express` },
-          { text: '退货上报', link: '/item-d' },
-          { text: '全自动化账单', link: '/item-d' },
-          { text: '库存管理', link: '/item-d' },
+          { text: '处理客户退货', link: `${DOCUMENT_SUFFIX}/core/refund` },
+          { text: '全自动化账单', link: `${DOCUMENT_SUFFIX}/core/bill` },
+          { text: '结算记录', link: `${DOCUMENT_SUFFIX}/core/reconciliation` },
+          { text: '🛠️ 库存管理', link: `${DOCUMENT_SUFFIX}/core/stock` },
         ]
       },
-      { text: 'example', link: '/markdown-examples' }
+
+      {
+        text: '访问及数据安全',
+        collapsed: false,
+        items: [
+          { text: '页面入口密码', link: `${DOCUMENT_SUFFIX}/safe/password` },
+          { text: '工厂打烊/关闭', link: `${DOCUMENT_SUFFIX}/safe/close` },
+          { text: '数据清理', link: `${DOCUMENT_SUFFIX}/safe/clean` },
+          { text: '可视化数据分析', link: `${DOCUMENT_SUFFIX}/safe/statistics` },
+          { text: '可视化数据分析', link: `${DOCUMENT_SUFFIX}/safe/statistics` },
+        ]
+      },
+      {
+        text: 'CMS 工厂管理',
+        collapsed: true,
+        items: [
+          { text: '仓库管理', link: `${DOCUMENT_SUFFIX}/cms/warehouse` },
+          { text: '分类管理', link: `${DOCUMENT_SUFFIX}/cms/category` },
+          { text: '商品管理', link: `${DOCUMENT_SUFFIX}/cms/goods` },
+          { text: '尺码管理', link: `${DOCUMENT_SUFFIX}/cms/size` },
+          { text: '用户管理', link: `${DOCUMENT_SUFFIX}/cms/user` },
+          { text: '价格管理', link: `${DOCUMENT_SUFFIX}/cms/price` },
+          { text: '轮播图管理', link: `${DOCUMENT_SUFFIX}/cms/banner` },
+          { text: '热门搜索词管理', link: `${DOCUMENT_SUFFIX}/cms/keywords` },
+        ]
+      },
+
+      {
+        text: '其他辅助功能',
+        collapsed: false,
+        items: [
+          { text: '自主新开工厂', link: `${DOCUMENT_SUFFIX}/assist/factory` },
+          { text: '自定义排序', link: `${DOCUMENT_SUFFIX}/assist/sort-rank` },
+          { text: '集合尺码图一键生成', link: `${DOCUMENT_SUFFIX}/assist/painter` },
+        ]
+      }
+
     ],
 
     socialLinks: [

@@ -47,9 +47,10 @@
 .fan-tips {
   padding: 4px 0px 8px 0px;
   color: #25262a;
-  font-size: 13px;
-  color: blue;
+  font-size: 14px;
+  color: darkblue;
   border-bottom: 1px solid #ddd;
+  line-height: 24px;
 }
 
 .scale-9 {
