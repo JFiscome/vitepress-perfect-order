@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 import MarkdownItCustomAttrs from 'markdown-it-custom-attrs'
 import '@fancyapps/ui'
 
-const DOCUMENT_SUFFIX = '/src/document'
+const DOCUMENT_SUFFIX = '/document'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "有条网络",
@@ -57,10 +57,9 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '页面入口密码', link: `${DOCUMENT_SUFFIX}/safe/password` },
-          { text: '工厂打烊/关闭', link: `${DOCUMENT_SUFFIX}/safe/close` },
-          { text: '数据清理', link: `${DOCUMENT_SUFFIX}/safe/clean` },
-          { text: '可视化数据分析', link: `${DOCUMENT_SUFFIX}/safe/statistics` },
-          { text: '可视化数据分析', link: `${DOCUMENT_SUFFIX}/safe/statistics` },
+          { text: '工厂打烊/ 一键隐藏 ⛔️', link: `${DOCUMENT_SUFFIX}/safe/close` },
+          { text: '🔖 🗑 数据清理', link: `${DOCUMENT_SUFFIX}/safe/clean` },
+          { text: '📊 可视化数据分析', link: `${DOCUMENT_SUFFIX}/safe/statistics` },
         ]
       },
       {

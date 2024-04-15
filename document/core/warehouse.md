@@ -58,6 +58,7 @@ pageClass: custom-page-class
 - 5. 清晰的图片、准确的数据、简易的辅助信息！
 
 这些有效的配货方案，明显提高了配货过程的效率和准确度，同时减轻了配货员的工作量 🎉 🎉 🎉 。
+```
 :::
 
 ## Lack . 断码上报
@@ -72,7 +73,7 @@ pageClass: custom-page-class
 
 > 从上面的图片可以看到，我们给“刘备”上报了全白软拖的商品一共断码了 5 双，并且这 5 双商品会自动分配到相应的每一个小笔的订单中！这些都是<span class="weight-text"> “ 程序自动实现的 ” </span>，断码的上报也是都非常简单。那么我们在配货完成并且上报完相关客户的数量之后呢，我们只需要<span class="underline-text"> 核实一下实际的配货数量是否准确即可装箱打包 。</span>
 
-> ~ 当然完成了上述这些操作之后，别忘记了点击 “一键完成” 按钮。
+> ~ 当然完成了上述这些操作之后，在配完货物之后呢，别忘记了点击 “一键完成” 按钮。
 
 <div class="center-text">一键完成 </div>
 
@@ -82,6 +83,17 @@ pageClass: custom-page-class
 通常这一步都是装车/配送之前对数量进行二次核实！以确保配送商品的准确性。
 
 ```
+
+## Schedule 配货进度查询 
+
+> 针对每一个仓库，都有单独的一个进度查询！进度查询的主要功能是让我们的管理员时时刻刻掌握配货的进度！可以点击界面下方的黑色按钮<span class="weight-text"> “ 进度查询 ” </span>进入到进度列表页面！
+
+> 进度列表中可以看到当前仓库所有的<span class="underline-text"> 订单信息、订单实时状态、订单对应配货人员 </span>。而且，我们还提供了一个<span class="weight-text"> “ 抢单 ” </span>功能、实际上就是如果某个配货员手头上的单子接的比较多。配货来不及，那么其他配货员可以在沟通好的情况下进行抢单操作。
+
+<div class="inline-container">
+    <img src="/public/img/cook/schedule-1.png" alt="" class="fancybox" data-fancybox="gallery" width="50%">
+    <img src="/public/img/cook/schedule-2.png" alt="" class="fancybox" data-fancybox="gallery" width="50%">
+</div>
 
 ## 核实中心 ✅
 

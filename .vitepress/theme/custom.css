@@ -1,9 +1,7 @@
 .custom-page-class {
-  background-image: linear-gradient(
-      90deg,
+  background-image: linear-gradient(90deg,
       rgba(255, 11, 109, 0.04) 3%,
-      transparent 0
-    ),
+      transparent 0),
     linear-gradient(1turn, rgba(176, 163, 26, 0.04) 3%, transparent 0);
   background-size: 20px 20px;
   background-position: 50%;
@@ -41,7 +39,6 @@
 
 .underline-text {
   color: var(--vp-c-brand-2);
-  text-decoration: underline;
 }
 
 .fan-tips {
@@ -61,7 +58,7 @@
   color: darkblue;
   font-weight: 800;
   font-size: 16px;
-  border-bottom: 1px solid darkblue;
+  border-bottom: 1px solid #ccc;
 }
 
 .center-text {
