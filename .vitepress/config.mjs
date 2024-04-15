@@ -53,9 +53,10 @@ export default defineConfig({
       },
 
       {
-        text: '访问及数据安全',
+        text: '权限控制及数据安全',
         collapsed: false,
         items: [
+          { text: '权限角色', link: `${DOCUMENT_SUFFIX}/safe/role` },
           { text: '页面入口密码', link: `${DOCUMENT_SUFFIX}/safe/password` },
           { text: '工厂打烊/ 一键隐藏 ⛔️', link: `${DOCUMENT_SUFFIX}/safe/close` },
           { text: '🔖 🗑 数据清理', link: `${DOCUMENT_SUFFIX}/safe/clean` },

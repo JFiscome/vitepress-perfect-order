@@ -128,4 +128,3 @@ pageClass: custom-page-class
     <img src="/public/img/cook/cook-3.png" alt="" class="fancybox" data-fancybox="gallery" width="24%">
     <img src="/public/img/cook/cook-4.png" alt="" class="fancybox" data-fancybox="gallery" width="24%">
 </div>
-```
