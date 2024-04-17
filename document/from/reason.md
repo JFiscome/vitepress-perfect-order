@@ -24,4 +24,8 @@ pageClass: custom-page-class
     <img src="/public/img/reason/main.jpg" alt="" class="fancybox" data-fancybox="gallery" width="50%">
 </div>
 
-💯💯<span class="highlight-text"> “工厂好管家”</span> 应运而生 🚀🚀，并在 2018 年正式的投入了实际运营，旨在为这些中小企业鞋厂带来一场管理革命。
+经过从 0 到 1 ，从无到有的<span class="underline-text"> 产品调研、UI设计、系统架构、前后端代码开发 </span>等内容！💯💯<span class="highlight-text"> “工厂好管家”</span> 应运而生 🚀🚀，并且在 2018 年正式的投入了实际运营，后续我们一直根据用户提出的需求不断的优化完善我们的产品！旨在为这些中小企业鞋厂带来一场管理革命。
+
+
+<div class="center-text">路漫漫其修远兮，吾将上下而求索</div>
+
