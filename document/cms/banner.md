@@ -33,6 +33,11 @@ pageClass: custom-page-class
 
 :::
 
+<div class="inline-container">
+    <img src="/public/img/cms/banner/banner-6.png" alt="" class="fancybox" data-fancybox="gallery" width="33%">
+    <img src="/public/img/cms/banner/banner-7.png" alt="" class="fancybox" data-fancybox="gallery" width="33%">
+    <img src="/public/img/cms/banner/banner-8.png" alt="" class="fancybox" data-fancybox="gallery" width="33%">
+</div>
 
 ## 想说的话
 

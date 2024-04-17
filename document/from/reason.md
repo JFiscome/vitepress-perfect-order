@@ -20,4 +20,8 @@ pageClass: custom-page-class
 
 面对这些挑战，我意识到可以运用我在软件开发方面的专长来提出解决方案。正是在这样的背景下，我萌生了一个想法：定制开发一款能够优化工厂管理流程的软件。由此，一款特定为了这些中小企业工厂量身定制打造的：
 
+<div class="inline-container">
+    <img src="/public/img/reason/main.jpg" alt="" class="fancybox" data-fancybox="gallery" width="50%">
+</div>
+
 💯💯<span class="highlight-text"> “工厂好管家”</span> 应运而生 🚀🚀，并在 2018 年正式的投入了实际运营，旨在为这些中小企业鞋厂带来一场管理革命。

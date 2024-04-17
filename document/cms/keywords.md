@@ -33,6 +33,13 @@ pageClass: custom-page-class
    当某个搜索词不再热门或不再符合推广目标时，管理员可以将其从热门搜索词列表中删除
   :::
 
+<div class="inline-container">
+    <img src="/public/img/cms/keywords/keywords-0.png" alt="" class="fancybox" data-fancybox="gallery" width="25%">
+    <img src="/public/img/cms/keywords/keywords-1.png" alt="" class="fancybox" data-fancybox="gallery" width="25%">
+    <img src="/public/img/cms/keywords/keywords-2.png" alt="" class="fancybox" data-fancybox="gallery" width="25%">
+    <img src="/public/img/cms/keywords/keywords-3.png" alt="" class="fancybox" data-fancybox="gallery" width="25%">
+</div>
+
 ## 小建议
 
 为了使页面整体体验更佳，管理员应当<span class="highlight-text"> 定期检查和更新热门搜索词 </span>，确保它们与用户需求和市场趋势保持一致。

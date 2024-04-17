@@ -39,3 +39,8 @@ pageClass: custom-page-class
 执行完排序操作，一定要记得 <span class="weight-text"> “ 保存排序！！！ ” </span>
 
 :::
+
+<div class="inline-container">
+    <img src="/public/img/assists/rank/rank-4.png" alt="" class="fancybox" data-fancybox="gallery" width="50%">
+    <img src="/public/img/assists/rank/rank-6.png" alt="" class="fancybox" data-fancybox="gallery" width="50%">
+</div>
