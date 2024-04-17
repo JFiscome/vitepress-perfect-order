@@ -12,9 +12,9 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /markdown-examples
+      link: /document/core/order
     - theme: alt
-      text: 视频指导
+      text: 联系我们
       link: /api-examples
 
 features:
@@ -28,3 +28,5 @@ features:
     title:  灵活账单
     details: 账单自动生成，简洁明了。一键截图功能，让您轻松将账单分享给客户，既方便快捷又专业高效。让财务管理更加轻松，为您的事业助力！
 ---
+
+<div class="center-text">加油 💪</div>

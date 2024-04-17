@@ -16,7 +16,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页面', link: '/' },
-      { text: '使用教程', link: '/document' },
+      { text: '使用教程', link: `${DOCUMENT_SUFFIX}/from/reason` },
       { text: '产品价格', link: '/price' },
       { text: '联系我们', link: '/markdown-examples' }
     ],
@@ -65,7 +65,7 @@ export default defineConfig({
       },
       {
         text: 'CMS 工厂管理',
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: '仓库管理', link: `${DOCUMENT_SUFFIX}/cms/warehouse` },
           { text: '分类管理', link: `${DOCUMENT_SUFFIX}/cms/category` },
