@@ -83,7 +83,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '自主新开工厂', link: `${DOCUMENT_SUFFIX}/assist/factory` },
-          { text: '自定义排序', link: `${DOCUMENT_SUFFIX}/assist/sort-rank` },
+          { text: '自定义排序', link: `${DOCUMENT_SUFFIX}/assist/rank` },
           { text: '集合尺码图一键生成', link: `${DOCUMENT_SUFFIX}/assist/painter` },
         ]
       }
