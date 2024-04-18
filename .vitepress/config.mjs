@@ -10,6 +10,7 @@ export default defineConfig({
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css' }],
     ['script', { src: 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js' }]
   ],
+  
   description: "perfect order docs ",
   themeConfig: {
     logo: "logo.svg",
@@ -22,6 +23,10 @@ export default defineConfig({
     ],
     search: {
       provider: 'local'
+    },
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2018-present Evan You'
     },
     docFooter: {
       prev: '上一个',

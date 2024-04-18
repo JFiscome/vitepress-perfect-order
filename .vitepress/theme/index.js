@@ -4,6 +4,8 @@ import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import './custom.css'
 
+import PriceDetail from './components/price-detail.vue'
+
 /** @type {import('vitepress').Theme} */
 export default {
   extends: DefaultTheme,
@@ -14,5 +16,6 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     // ...
+    app.component('price-detail', PriceDetail)
   }
 }
