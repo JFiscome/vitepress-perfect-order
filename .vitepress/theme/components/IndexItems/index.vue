@@ -93,7 +93,7 @@
     <div class="inner-container">
       <div class="side-bar">
         <div class="title">
-          <span class="title-suffix">随叫随到</span>
+          <span class="title-suffix">全心服务</span>
           <span class="title-content"> “ 售后无忧 ” </span>
         </div>
         <img src="./img/item-3.svg" class="banner-img" alt="" />
@@ -103,8 +103,8 @@
           <span class="rainbow-text">免费试用 、</span> 用到您满意！
         </div>
         <div class="button-line">
-          <a href="" class="price-button">产品定价</a>
-          <a href="" class="contact-us">联系我们</a>
+          <a href="/document/other/price" class="price-button">产品定价</a>
+          <a href="/document/other/concat" class="contact-us">联系我们</a>
         </div>
       </div>
     </div>
@@ -113,7 +113,7 @@
 
 <script>
 export default {
-  name: "PriceDetail",
+  name: "IndexItems",
   data() {
     return {};
   },
@@ -133,10 +133,21 @@ export default {
   align-items: center;
   justify-content: space-between;
   background-color: #12222f;
-  margin: 8px 0;
+  margin: 28px 0;
   flex-wrap: wrap;
   padding: 20px 12px;
   border-radius: 8px;
+  transition: all 0.7s;
+}
+
+.inner-container:first-child {
+  margin-top: -40px;
+}
+
+.inner-container:hover .banner-img {
+  z-index: 999;
+  transform: scale(1.2) translateY(24px) skew(-4deg) rotate(360deg);
+  transition: all 2s;
 }
 
 .inside-box {
@@ -189,6 +200,7 @@ export default {
 
 .banner-img {
   width: 60%;
+  transition: all 2s;
 }
 
 .main-content {
@@ -268,7 +280,14 @@ export default {
 
 .rainbow-text {
   font-size: 48px;
-  background-image: linear-gradient(to right, green, yellow, orange, purple,black);
+  background-image: linear-gradient(
+    to right,
+    green,
+    yellow,
+    orange,
+    purple,
+    black
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

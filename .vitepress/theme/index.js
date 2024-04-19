@@ -4,7 +4,8 @@ import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import './custom.css'
 
-import PriceDetail from './components/price-detail.vue'
+import IndexItems from './components/IndexItems/index.vue'
+import BackGround from './components/BackGround/index.vue'
 
 /** @type {import('vitepress').Theme} */
 export default {
@@ -16,6 +17,7 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     // ...
-    app.component('price-detail', PriceDetail)
+    app.component('IndexItems', IndexItems)
+    app.component('BackGround', BackGround)
   }
 }

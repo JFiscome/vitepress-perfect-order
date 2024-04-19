@@ -10,7 +10,7 @@ export default defineConfig({
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css' }],
     ['script', { src: 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js' }]
   ],
-  
+
   description: "perfect order docs ",
   themeConfig: {
     logo: "logo.svg",
@@ -18,8 +18,8 @@ export default defineConfig({
     nav: [
       { text: '首页面', link: '/' },
       { text: '使用教程', link: `${DOCUMENT_SUFFIX}/from/reason` },
-      { text: '产品价格', link: '/price' },
-      { text: '联系我们', link: '/markdown-examples' }
+      { text: '产品价格', link: `${DOCUMENT_SUFFIX}/other/price` },
+      { text: '联系我们', link: `${DOCUMENT_SUFFIX}/other/concat` }
     ],
     search: {
       provider: 'local'
