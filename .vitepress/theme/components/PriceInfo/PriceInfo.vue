@@ -117,7 +117,7 @@ export default {
 }
 
 .line-container {
-  width: 70vw;
+  width: 72vw;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -136,7 +136,7 @@ export default {
 }
 
 .price-card {
-  width: 430px;
+  width: 420px;
   margin: 10px 0;
   border: 1px solid #f4f4f4;
   border-radius: 6px;
@@ -183,8 +183,9 @@ export default {
   border-bottom: 1px solid #eee;
   margin-top: 30px;
   font-weight: 600;
-  width: 80%;
+  width: 90%;
   padding: 10px 0;
+  text-align: center;
 }
 
 .card-info>span {
