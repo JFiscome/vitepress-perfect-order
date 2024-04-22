@@ -10,10 +10,10 @@ export default defineConfig({
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css' }],
     ['script', { src: 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js' }]
   ],
-
+  base: '/md/md-perfect/',
   description: "perfect order docs ",
   themeConfig: {
-    logo: "/public/img/logo/logo-text.png",
+    logo: "public/img/logo/logo-text.png",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页面', link: '/' },
@@ -25,8 +25,8 @@ export default defineConfig({
       provider: 'local'
     },
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2018-present Evan You'
+      message: 'Copyright © 2024 有条（莆田）网络科技有限公司. All rights reserved .',
+      copyright: ' 联系方式：13515924007 | <a href="https://beian.miit.gov.cn/" target="_blank">闽ICP备19016370号-3</a>'
     },
     docFooter: {
       prev: '上一个',
@@ -96,7 +96,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      // { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ],
 
     enhanceAppFiles: [

@@ -53,6 +53,13 @@
     </div>
 
     <div class="inner-container">
+      <div class="side-bar">
+        <div class="title">
+          <span class="title-suffix">多样化</span>
+          <span class="title-content"> “ 系统部署方案 ” </span>
+        </div>
+        <img src="./img/item-2.svg" class="banner-img" alt="" />
+      </div>
       <div class="left-box">
         <div class="inside-box">
           <div class="scheme-box">
@@ -80,14 +87,6 @@
           </div>
         </div>
       </div>
-
-      <div class="side-bar">
-        <div class="title">
-          <span class="title-suffix">多样化</span>
-          <span class="title-content"> “ 系统部署方案 ” </span>
-        </div>
-        <img src="./img/item-2.svg" class="banner-img" alt="" />
-      </div>
     </div>
 
     <div class="inner-container">
@@ -100,11 +99,11 @@
       </div>
       <div class="left-box">
         <div class="free-use">
-          <span class="rainbow-text">免费试用 、</span> 用到您满意！
+          <span class="rainbow-text">免费试用 30 天 </span> 包您满意
         </div>
         <div class="button-line">
-          <a href="/document/other/price" class="price-button">产品定价</a>
-          <a href="/document/other/concat" class="contact-us">联系我们</a>
+          <a href="document/other/price" class="price-button">产品定价</a>
+          <a href="document/other/concat" class="contact-us">联系我们</a>
         </div>
       </div>
     </div>
@@ -123,15 +122,16 @@ export default {
 .price-container {
   width: 100%;
   /* background-color: #1e222f; */
-  margin-top: -30px;
+  margin-top: 30px;
   border-radius: 12px;
+
 }
 
 .inner-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #12222f;
   margin: 28px 0;
   flex-wrap: wrap;
@@ -146,8 +146,8 @@ export default {
 
 .inner-container:hover .banner-img {
   z-index: 999;
-  transform: scale(1.2) translateY(24px) skew(-4deg) rotate(360deg);
-  transition: all 2s;
+  transform: translateX(-30px);
+  transition: all 1.2s;
 }
 
 .inside-box {
@@ -156,10 +156,11 @@ export default {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
+  margin: 0 auto;
 }
 
 .side-bar {
-  width: 40%;
+  width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -167,7 +168,7 @@ export default {
 }
 
 .left-box {
-  width: 60%;
+  width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -178,9 +179,11 @@ export default {
   color: #fff;
   font-weight: 700;
   line-height: 40px;
-  width: 100%;
   text-align: center;
   margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .title-suffix {
@@ -199,7 +202,8 @@ export default {
 }
 
 .banner-img {
-  width: 60%;
+  width: 240px;
+  margin-bottom: 20px;
   transition: all 2s;
 }
 
@@ -216,7 +220,7 @@ export default {
 }
 
 .line {
-  width: 48%;
+  width: 100%;
   display: flex;
   align-items: center;
   margin: 8px 6px;
@@ -271,22 +275,23 @@ export default {
 }
 
 .free-use {
-  width: 90%;
+  width: 100%;
   font-size: 2.6rem;
   color: #fff;
   padding: 20px 10px;
   line-height: 2.8rem;
+  text-align: center;
 }
 
 .rainbow-text {
-  font-size: 48px;
+  font-size: 44px;
   background-image: linear-gradient(
     to right,
+    purple,
     green,
     yellow,
     orange,
-    purple,
-    black
+    white
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
