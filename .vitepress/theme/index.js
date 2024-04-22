@@ -6,6 +6,7 @@ import './custom.css'
 
 import IndexItems from './components/IndexItems/index.vue'
 import BackGround from './components/BackGround/index.vue'
+import PriceInfo from './components/PriceInfo/PriceInfo.vue'
 
 /** @type {import('vitepress').Theme} */
 export default {
@@ -19,5 +20,6 @@ export default {
     // ...
     app.component('IndexItems', IndexItems)
     app.component('BackGround', BackGround)
+    app.component('PriceInfo', PriceInfo)
   }
 }

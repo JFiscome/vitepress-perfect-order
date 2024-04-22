@@ -77,6 +77,7 @@ export default {
 <style scoped>
 .back-container {
   width: 100%;
+  height: 80vh;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -104,7 +105,7 @@ export default {
   margin: 10px 20px;
 }
 
-.qrcode-box > span {
+.qrcode-box>span {
   color: #111;
   font-weight: 300;
   font-size: 14px;
@@ -137,10 +138,18 @@ export default {
 }
 
 .item-box:hover {
-  transform: scale(1.1) translateY(-10px);
+  transform: scale(1.02) translateY(-10px);
   background: #fff;
   transition: all .5s;
   border: 1px solid #ddd;
+}
+
+.item-box:hover .rect-title {
+  color: darkblue;
+}
+
+.item-box:hover .rect {
+  background-color: darkblue;
 }
 
 .rect-box {
