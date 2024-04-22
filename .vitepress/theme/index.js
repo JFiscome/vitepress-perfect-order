@@ -5,7 +5,7 @@ import './style.css'
 import './custom.css'
 
 import IndexItems from './components/IndexItems/index.vue'
-import BackGround from './components/BackGround/index.vue'
+import ConcatUs from './components/ConcatUs/index.vue'
 import PriceInfo from './components/PriceInfo/PriceInfo.vue'
 
 /** @type {import('vitepress').Theme} */
@@ -19,7 +19,7 @@ export default {
   enhanceApp({ app, router, siteData }) {
     // ...
     app.component('IndexItems', IndexItems)
-    app.component('BackGround', BackGround)
+    app.component('ConcatUs', ConcatUs)
     app.component('PriceInfo', PriceInfo)
   }
 }

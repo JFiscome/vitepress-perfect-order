@@ -13,7 +13,7 @@ export default defineConfig({
   base: '/md/md-perfect/',
   description: "perfect order docs ",
   themeConfig: {
-    logo: "public/img/logo/logo-text.png",
+    logo: "/img/logo/logo-text.png",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页面', link: '/' },

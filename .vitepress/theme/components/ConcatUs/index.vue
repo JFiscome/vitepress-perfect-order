@@ -77,13 +77,11 @@ export default {
 <style scoped>
 .back-container {
   width: 100%;
-  height: 80vh;
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
 }
 
 .top-line {
@@ -104,7 +102,7 @@ export default {
   margin: 10px 20px;
 }
 
-.qrcode-box>span {
+.qrcode-box > span {
   color: #111;
   font-weight: 300;
   font-size: 14px;
@@ -124,8 +122,8 @@ export default {
 }
 
 .item-box {
-  width: 80%;
-  padding: 10px 0px;
+  width: 100%;
+  padding: 10px 30px;
   background-color: #f4f5f9;
   border-radius: 12px;
   display: flex;
@@ -133,13 +131,13 @@ export default {
   align-items: center;
   justify-content: center;
   margin: 18px 0;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .item-box:hover {
   transform: scale(1.02) translateY(-10px);
   background: #fff;
-  transition: all .5s;
+  transition: all 0.5s;
   border: 1px solid #ddd;
 }
 
@@ -152,7 +150,7 @@ export default {
 }
 
 .rect-box {
-  width: 80%;
+  width: 100%;
   padding: 20px 10px;
   border-radius: 4px;
   display: flex;
@@ -162,11 +160,12 @@ export default {
 }
 
 .rect-title {
+  width: 320px;
   font-size: 16px;
-  margin: 0px 50px;
   letter-spacing: 4px;
   font-weight: 800;
   color: #000;
+  text-align: center;
 }
 
 .rect {
@@ -176,6 +175,8 @@ export default {
 }
 
 .info-line {
+  width: 100%;
+  text-align: center;
   display: flex;
   flex-direction: column;
   margin: 0 40px;
@@ -196,7 +197,7 @@ export default {
 }
 
 .introduce-content {
-  width: 60%;
+  width: 100%;
   text-indent: 1.6rem;
   text-align: center;
 }
