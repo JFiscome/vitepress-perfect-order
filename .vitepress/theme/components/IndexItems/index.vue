@@ -124,7 +124,6 @@ export default {
   /* background-color: #1e222f; */
   margin-top: 30px;
   border-radius: 12px;
-
 }
 
 .inner-container {
@@ -145,9 +144,25 @@ export default {
 }
 
 .inner-container:hover .banner-img {
-  z-index: 999;
-  transform: translateX(-30px);
-  transition: all 1.2s;
+  animation: move-img 2s linear;
+}
+
+@keyframes move-img {
+  0% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(-40px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  75%{
+    transform: translateX(40px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
 
 .inside-box {

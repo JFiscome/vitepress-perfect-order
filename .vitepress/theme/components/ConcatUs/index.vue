@@ -88,6 +88,8 @@ export default {
   display: flex;
   flex-wrap: wrap;
   margin-top: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .qrcode-box {
