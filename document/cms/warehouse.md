@@ -8,6 +8,10 @@ pageClass: custom-page-class
 
 在现代工厂运营中，高效的仓库管理是至关重要的。为了满足不同规模工厂的需求，我们的系统提供了一套全面的仓库管理解决方案，包括<span class="highlight-text"> 新增、编辑、删除仓库 </span>等操作，以及查看仓库内商品列表等功能。工厂好管家强力支持 <span class="weight-text"> “ 多仓库系统 ” </span> 用户可以灵活使用多仓库管理！
 
+## 操作视频教程
+
+<video src="https://perfect.yanxi.site/md/cms-video/warehouse.mp4" controls/>
+
 ## 智能化仓库管理
 
 > 使用 “ 仓库管理 ” 功能路径：<span class="underline-text"> 【我的】-【管理工具】-【更多】-【仓库管理】 </span>

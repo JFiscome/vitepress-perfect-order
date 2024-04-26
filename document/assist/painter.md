@@ -12,6 +12,10 @@ pageClass: custom-page-class
 
 手机端目前仅适合生成小图片，由于集合图包含的商品很多，所以手机端无法支持！本功能开发的初衷是为了客户也可以在<span class="underline-text"> 电脑网页端查看工厂的库存！ </span>电脑显示器的大屏幕看的更方便。
 
+## 操作视频教程
+
+<video src="https://perfect.yanxi.site/md/cms-video/painter.mp4" controls/>
+
 ## 如何使用网页端生成图片
 
 > 使用 “ 图片一键生成 ” 功能路径：<span class="underline-text"> 【我的】-【用户工具】-【更多】-【库存概要】- 【电脑网页访问】 </span>

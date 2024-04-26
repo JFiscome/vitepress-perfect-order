@@ -8,6 +8,11 @@ pageClass: custom-page-class
 
 在工厂好管家系统中，排序是一项关键功能，它决定了商品、分类、仓库和轮播图等内容的展示顺序。为了提高管理效率和用户体验，系统对排序规则进行了优化，并创建了独立的排序功能模块。方便工厂管理员对这些常用的商品、功能进行排序！
 
+
+## 操作视频教程
+
+<video src="https://perfect.yanxi.site/md/cms-video/sort.mp4" controls/>
+
 ## 排序规则
 
 在工厂好管家中，任何内容的排序都是按数字进行排序的，<span class="weight-text"> “ 小的在前，大的在后！ ” </span> 。例如：A，B 两个商品进行排序，A 的排序权重为 1，B 的权重为 2，那么 A 就排在 B 的前面。

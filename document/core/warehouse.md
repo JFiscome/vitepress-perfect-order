@@ -6,6 +6,12 @@ pageClass: custom-page-class
 
 # 多仓库配货能力
 
+
+
+## 操作视频教程
+
+<video src="https://perfect.yanxi.site/md/cms-video/cook.mp4" controls/>
+
 ## 配货大厅
 
 拥有管理员身份的员工，在页面 <span class="weight-text">【我的】-【管理工具】-【多仓配货】</span> 进入一个仓库然后点击配货大厅。选择自己目前所在的仓库进行接单操作！管理员可以在每个仓库的图片上看到需要我们处理的订单数目。

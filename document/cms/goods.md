@@ -8,6 +8,10 @@ pageClass: custom-page-class
 
 > 商品管理是整个管理流程中至关重要的一环，一个全面且高效的商品管理系统能够帮助企业实现商品信息的快速更新、准确展示和便捷操作。
 
+## 操作视频教程
+
+<video src="https://perfect.yanxi.site/md/cms-video/goods.mp4" controls/>
+
 ## 商品信息管理
 
 > 使用 “ 商品管理 ” 功能路径：<span class="underline-text"> 【我的】-【管理工具】-【更多】-【商品管理】 </span>
@@ -62,3 +66,8 @@ pageClass: custom-page-class
     <img src="/public/img/cms/goods/goods-6.png" alt="" class="fancybox" data-fancybox="gallery" width="33%">
     <img src="/public/img/cms/goods/goods-7.png" alt="" class="fancybox" data-fancybox="gallery" width="33%">
 </div>
+
+
+## 热门商品推荐操作视频教程
+
+<video src="https://perfect.yanxi.site/md/cms-video/hot-goods.mp4" controls/>

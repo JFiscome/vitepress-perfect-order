@@ -14,6 +14,12 @@ pageClass: custom-page-class
 
 > 那么接下来我们来详细介绍一下两种不同退货的方式
 
+
+## 操作视频教程
+
+<video src="https://perfect.yanxi.site/md/cms-video/refund.mp4" controls/>
+
+
 ## 尺码数据上报 （📮 推荐）
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;顾名思义，尺码数据上报就是处理客户退货的信息，需要把<span class="weight-text"> 商品类型、具体尺码数量 </span> 进行退货上报登记！这个有点类似顾客在下单时候使用的模式。那么这个上报的数据是比较明确清楚的，那么将来我们在处理这一条退货数据的时候，<span class="highlight-text"> 高级管理员 </span>需要对这一条退货订单进行核实，如果核实正确 ✅ 以后，系统会根据该退货订单， <span class="weight-text"> “ 自动生成退货账单 ” </span>，并且合并到该用户的每日账单中。那么因为这一笔订单带有详细的尺码数据信息。所以这个尺码信息会被<span class="underline-text"> 自动增加到库存中 </span>。以后这一笔退货就无需重新入库，直接放回仓库即可！

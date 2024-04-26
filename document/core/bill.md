@@ -6,6 +6,13 @@ pageClass: custom-page-class
 
 # 全自动化账单
 
+
+
+
+## 操作视频教程
+
+<video src="https://perfect.yanxi.site/md/cms-video/bill.mp4" controls/>
+
 ## 账单的生成！
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;根据 <a href="/src/document/core/express">【 配送列表信息 】</a> 中的 <span class="highlight-text"> “ 确认送达” </span> 和 <a href="/src/document/core/refund">【 客户退货处理 】</a> 中的 <span class="highlight-text"> “ 退货核实正确 ” </span>
@@ -42,6 +49,8 @@ pageClass: custom-page-class
     <img src="/public/img/core/bill-2.png" alt="" class="fancybox" data-fancybox="gallery" width="33%">
     <img src="/public/img/core/bill-3.png" alt="" class="fancybox" data-fancybox="gallery" width="33%">
 </div>
+
+
 
 ## 查询和分享
 

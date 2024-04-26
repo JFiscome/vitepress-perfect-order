@@ -16,6 +16,8 @@ pageClass: custom-page-class
 使用场景：假设工厂 晚上 7 点 截止接单！ 可以开启 “暂停营业”
 </div>
 
+
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在实际的生产操作中，可能会遇到一些特定的情况，需要用户暂停工厂权限对用户系统的开通，工厂可以启用 <span class="highlight-text"> “暂停营业” </span> 功能。
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此功能特别设计来 <span class="red-text">限制普通用户</span> 在特定时间段内的访问权限，以符合工厂的营业时间要求。同时确保<span class="highlight-text"> 管理员仍可正常进行 </span>后台管理和操作！
@@ -55,3 +57,8 @@ pageClass: custom-page-class
 
 :key:&nbsp;&nbsp;这样的设计旨在确保工厂的安全性不会因为自动恢复机制而受到潜在的风险。通过手动联系客服的方式，可以确保每次恢复操作都是经过授权和记录的，从而增强了系统的<span class="underline-text"> 安全性和可追溯性。 </span>
 :::
+
+
+## 操作视频教程
+
+<video src="https://perfect.yanxi.site/md/cms-video/safe.mp4" controls/>

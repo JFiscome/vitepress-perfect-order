@@ -10,6 +10,11 @@ pageClass: custom-page-class
 
 数据可视化是一种强大的工具，它能够将复杂的数据信息转换为直观的图形表示，从而帮助用户更容易<span class="underline-text"> 理解和分析数据 </span>。在商业决策、市场趋势分析以及产品管理等领域，数据可视化发挥着至关重要的作用。
 
+
+
+## 操作视频教程
+<video src="https://perfect.yanxi.site/md/cms-video/statistics.mp4" controls/>
+
 ## 功能点介绍
 
 > 使用 “ 数据统计 ” 功能路径：<span class="underline-text"> 【我的】-【管理工具】-【更多】-【数据统计】 </span>

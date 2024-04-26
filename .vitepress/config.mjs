@@ -61,23 +61,23 @@ export default defineConfig({
         text: '权限控制及数据安全',
         collapsed: false,
         items: [
-          { text: '权限角色', link: `${DOCUMENT_SUFFIX}/safe/role` },
           { text: '页面入口密码', link: `${DOCUMENT_SUFFIX}/safe/password` },
           { text: '工厂打烊/ 一键隐藏 ⛔️', link: `${DOCUMENT_SUFFIX}/safe/close` },
           { text: '🔖 🗑 数据清理', link: `${DOCUMENT_SUFFIX}/safe/clean` },
           { text: '📊 可视化数据分析', link: `${DOCUMENT_SUFFIX}/safe/statistics` },
+          { text: '权限角色', link: `${DOCUMENT_SUFFIX}/safe/role` },
         ]
       },
       {
         text: 'CMS 工厂管理',
         collapsed: false,
         items: [
+          { text: '用户管理', link: `${DOCUMENT_SUFFIX}/cms/user` },
+          { text: '价格管理', link: `${DOCUMENT_SUFFIX}/cms/price` },
           { text: '仓库管理', link: `${DOCUMENT_SUFFIX}/cms/warehouse` },
           { text: '分类管理', link: `${DOCUMENT_SUFFIX}/cms/category` },
           { text: '商品管理', link: `${DOCUMENT_SUFFIX}/cms/goods` },
           { text: '尺码管理', link: `${DOCUMENT_SUFFIX}/cms/size` },
-          { text: '用户管理', link: `${DOCUMENT_SUFFIX}/cms/user` },
-          { text: '价格管理', link: `${DOCUMENT_SUFFIX}/cms/price` },
           { text: '轮播图管理', link: `${DOCUMENT_SUFFIX}/cms/banner` },
           { text: '热门搜索词管理', link: `${DOCUMENT_SUFFIX}/cms/keywords` },
         ]

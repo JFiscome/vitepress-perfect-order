@@ -11,6 +11,10 @@ pageClass: custom-page-class
 
 换句话说：<span class="weight-text"> “ 不同客户、不同商品可以不同价格！账单也是根据自定义的价格生成 ” </span>
 
+## 操作视频教程
+
+<video src="https://perfect.yanxi.site/md/cms-video/price.mp4" controls/>
+
 ## 功能操作
 > 使用 “ 自定义价格 ” 功能路径：<span class="underline-text"> 【我的】-【管理工具】-【更多】-【 自定义价格 】 </span>
 

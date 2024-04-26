@@ -8,6 +8,10 @@ pageClass: custom-page-class
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;热门搜索词是提升用户体验和推广商品的重要工具。通过在搜索页面设置热门搜索词，管理员可以引导用户<span class="underline-text"> 快速找到热门商品 </span>，同时也有助于新商品的曝光和推广。
 
+## 操作视频教程
+
+<video src="https://perfect.yanxi.site/md/cms-video/hot-keyword.mp4" controls/>
+
 ## 热门搜索词管理
 
 > 使用 “ 热门搜索词 ” 功能路径：<span class="underline-text"> 【我的】-【管理工具】-【更多】-【 热门搜索词 】 </span>

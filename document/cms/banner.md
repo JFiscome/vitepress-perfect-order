@@ -8,6 +8,9 @@ pageClass: custom-page-class
 
 轮播图是一种高效的展示方式，用于在系统内的显眼位置<span class="highlight-text"> 推广新产品、发布通知公告等重要信息 </span>。在工厂好管家系统中，轮播图位于<span class="green-text"> 首页顶部 </span>，能够立即吸引访问者的注意。
 
+## 操作视频教程
+
+<video src="https://perfect.yanxi.site/md/cms-video/banner.mp4" controls/>
 
 ## 轮播图管理
 

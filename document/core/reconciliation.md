@@ -8,6 +8,13 @@ pageClass: custom-page-class
 
 > 结算表和账单虽然他们内容相似，但是他们完全独立的两块内容！账单我们上一篇文章已经介绍过了，那么关于结算表，他更多是辅助我们实际业务中金额<span class="green-text"> “ 结算登记，累加、扣减 ” </span>等一系列操作。<span class="underline-text"> “ 结算表类似一个辅助的记账本 ” </span>！
 
+
+
+
+## 操作视频教程
+
+<video src="https://perfect.yanxi.site/md/cms-video/reconciliaiton.mp4" controls/>
+
 ## 待结算列表
 
 待结算列表默认按照客户<span class="highlight-text"> 待结算金额从高到低 </span>排序。我们也可以通过<span class="underline-text"> “ 搜索功能 ” </span> ，搜索指定的用户。 查询他的待结算金额！

@@ -8,6 +8,10 @@ pageClass: custom-page-class
 
 尺码管理是库存控制的重要组成部分，通过有效的尺码管理和库存警戒线设置，企业可以<span class="weight-text"> “ 预防断货风险 ” </span>，并及时<span class="weight-text"> “ 调整生产销售策略。 ” </span>
 
+## 操作视频教程
+
+<video src="https://perfect.yanxi.site/md/cms-video/stock.mp4" controls/>
+
 ## 尺码信息管理
 
 > 使用 “ 尺码管理 ” 功能路径：<span class="underline-text"> 【我的】-【管理工具】-【库存管理】 </span> 中，完成尺码管理

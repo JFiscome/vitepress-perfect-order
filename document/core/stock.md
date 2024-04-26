@@ -4,7 +4,10 @@ lang: en-US
 pageClass: custom-page-class
 ---
 
-# 🛠️ 库存管理
+## 🛠️ 库存管理操作视频
+
+<video src="https://perfect.yanxi.site/md/cms-video/stock.mp4" controls/>
+
 
 ## 库存的核减（出库）
 

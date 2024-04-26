@@ -8,6 +8,10 @@ pageClass: custom-page-class
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;商品分类是库存管理中的基础，不仅有助于维护库存的有序性，还能在报货<span class="highlight-text"> 下单时快速定位 </span>目标商品。一个高效的分类系统可以显著提高工作效率和准确性。
 
+## 操作视频教程
+
+<video src="https://perfect.yanxi.site/md/cms-video/category.mp4" controls/>
+
 ## 分类管理功能
 
 > 使用 “ 商品管理 ” 功能路径：<span class="underline-text"> 【我的】-【管理工具】-【更多】-【分类管理】 </span>

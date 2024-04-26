@@ -14,6 +14,11 @@ pageClass: custom-page-class
 
 通过这些改进，我们旨在为用户提供一个更加安全可靠的操作环境，同时确保企业的敏感信息和关键资源得到充分保护。我们鼓励管理员根据实际情况和安全策略，合理配置和使用这些功能，以实现最佳的安全效果。
 
+
+## 操作视频教程
+
+<video src="https://perfect.yanxi.site/md/cms-video/password.mp4" controls/>
+
 ## 访问密码设置
 
 >使用页面入口密码功能路径：<span class="underline-text"> 【我的】-【管理工具】-【更多】-【页面密码】 </span>

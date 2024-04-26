@@ -9,6 +9,10 @@ pageClass: custom-page-class
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用户角色与权限管理是工厂好管家系统中的核心功能，它确保了不同用户根据其角色拥有不同的访问权限，从而保障了系统的安全性和高效性，用户管理功能是高级管理员具备的管理能力。具体关于用户权限角色可以点击查看上面的<a href="/src/document/core/express">《权限角色》。</a>
 
 
+## 邀请新用户操作视频教程
+
+<video src="https://perfect.yanxi.site/md/cms-video/invite-user.mp4" controls/>
+
 ## 新用户邀请
 > 使用 “ 新用户邀请 ” 功能路径：<span class="underline-text"> 【我的】-【管理工具】-【更多】-【新用户邀请】 </span>
 
@@ -57,9 +61,16 @@ pageClass: custom-page-class
   只有被禁用的用户才能被删除。一旦用户被删除，将无法访问本工厂系统。
 
 
+
+## 用户管理操作视频教程
+
+<video src="https://perfect.yanxi.site/md/cms-video/user.mp4" controls/>
+
 ## 用户管理
 
 > 使用 “ 用户管理 ” 功能路径：<span class="underline-text"> 【我的】-【管理工具】-【更多】-【 用户管理 】 </span>
+
+
 
 管理员拥有编辑用户信息和配置用户角色的权限，能够对用户的操作范围进行精细控制。具体来说，管理员可以限制用户查询订单和账单的时间范围，确保信息的安全性和隐私性。还可以自定义商品的价格设置，实现差异化定价策略
 <div class="inline-container">
