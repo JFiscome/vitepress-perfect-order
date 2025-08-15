@@ -4,9 +4,9 @@
 layout: home
 
 hero:
-  name: "工厂好管家"
+  name: "工厂档口好管家"
   text: "科技化的得力助手"
-  tagline: 整合资源，优化流程，降本增效，提高数据精准度，支持决策，实时反馈，高效便捷。
+  tagline: 整合资源，优化流程，降本增效，提高数据精准度，支持决策，实时反馈，高效便捷，阿里云以图搜图API一秒响应
   image:
     src: /img/background.svg
     alt: background

@@ -18,7 +18,7 @@ export default defineConfig({
     nav: [
       { text: '首页面', link: '/' },
       { text: '使用教程', link: `${DOCUMENT_SUFFIX}/from/reason` },
-      { text: '产品价格', link: `${DOCUMENT_SUFFIX}/other/price` },
+      { text: '产品类型', link: `${DOCUMENT_SUFFIX}/other/price` },
       { text: '联系我们', link: `${DOCUMENT_SUFFIX}/other/concat` }
     ],
     search: {
@@ -26,7 +26,7 @@ export default defineConfig({
     },
     footer: {
       message: 'Copyright © 2024 有条（莆田）网络科技有限公司. All rights reserved .',
-      copyright: ' 联系方式：13515924007 | <a href="https://beian.miit.gov.cn/" target="_blank">闽ICP备19016370号-3</a>'
+      copyright: ' 联系方式：13515924007 | <a href="https://beian.miit.gov.cn/" target="_blank">闽ICP备2023024575号-6</a>'
     },
     docFooter: {
       prev: '上一个',

@@ -5,7 +5,7 @@
       <div class="top-line">
         <img src="/public/img/logo/logo-text.png" alt="" class="logo-img" />
         <div class="content-line">
-          <h1 style="color: black">产品价格</h1>
+          <h3 style="color: black">精确以图搜图，一秒响应</h3>
           <p class="content-text">
             好管家产品免费试用30天，帮助您节约财务人工成本、减少配货员人工成本。
           </p>
@@ -18,8 +18,7 @@
           <img
             src="./../IndexItems/img/item-1.svg"
             alt=""
-            class="small-price-card"
-          />
+            class="small-price-card" />
           <div class="card-title">全托管服务</div>
           <div class="card-info">
             <span>“好管家” 提供前后端一站式全服务</span>
@@ -31,18 +30,17 @@
             <span>好管家式安心十分服务</span>
           </div>
 
-          <div class="price-content">
+          <!-- <div class="price-content">
             <div class="price-number">￥600</div>
             <div class="price-line"></div>
             <div class="price-prefix">月</div>
-          </div>
+          </div> -->
         </div>
         <div class="price-card">
           <img
             src="./../IndexItems/img/item-3.svg"
             alt=""
-            class="small-price-card"
-          />
+            class="small-price-card" />
           <div class="card-title">独立部署</div>
           <div class="card-info">
             <span>客户自主提供服务器</span>
@@ -54,18 +52,17 @@
             <span>好管家式安心十分服务、技术协助</span>
           </div>
 
-          <div class="price-content">
+          <!-- <div class="price-content">
             <div class="price-number">￥800</div>
             <div class="price-line"></div>
             <div class="price-prefix">月</div>
-          </div>
+          </div> -->
         </div>
         <div class="price-card">
           <img
             src="./../IndexItems/img/item-2.svg"
             alt=""
-            class="small-price-card"
-          />
+            class="small-price-card" />
           <div class="card-title">自由技术合作</div>
           <div class="card-info">
             <span>超强定制服务、前后端代码可扩展分享</span>
@@ -76,12 +73,12 @@
             <span>多重系统防护、安全有保障 💪🏻</span>
             <span>好管家式安心十分服务、技术协助</span>
           </div>
-
+          <!-- 
           <div class="price-content">
             <div class="price-number">￥1200</div>
             <div class="price-line"></div>
             <div class="price-prefix">月</div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -89,166 +86,167 @@
 </template>
 
 <script>
-export default {
-  name: "PriceInfo",
-  data() {
-    return {};
-  },
-};
+  export default {
+    name: 'PriceInfo',
+    data() {
+      return {}
+    },
+  }
 </script>
 <style scoped>
-.container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-.content-line {
-  min-width: 400px;
-  padding: 10px 40px;
-}
+  .content-line {
+    min-width: 400px;
+    padding: 10px 40px;
+  }
 
-.content-text {
-  font-size: 18px;
-  color: #333;
-  width: 100%;
-}
+  .content-text {
+    font-size: 18px;
+    color: #333;
+    width: 100%;
+  }
 
-.price-back-container {
-  width: 100vw;
-  height: 50vh;
-  /* background-image: url('./img/background.png'); */
-  /* background-size: 60%; */
-  /* background-repeat: repeat-y; */
-  background-image: linear-gradient(
-    to right bottom,
-    orange,
-    yellow,
-    skyblue,
-    rebeccapurple
-  );
-}
+  .price-back-container {
+    width: 100vw;
+    height: 50vh;
+    /* background-image: url('./img/background.png'); */
+    /* background-size: 60%; */
+    /* background-repeat: repeat-y; */
+    background-image: linear-gradient(
+      to right bottom,
+      orange,
+      yellow,
+      skyblue,
+      rebeccapurple
+    );
+  }
 
-.top-line {
-  width: 84%;
-  display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+  .top-line {
+    width: 84%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 
-.logo-img {
-  width: 100px;
-  border-radius: 10px;
-}
+  .logo-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
 
-.line-container {
-  width: 80vw;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 20px;
-  border-radius: 12px;
-}
+  .line-container {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 12px;
+  }
 
-.inner-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: -40vh;
-}
+  .inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -40vh;
+  }
 
-.price-card {
-  width: 380px;
-  margin: 10px 0;
-  border: 1px solid #f4f4f4;
-  border-radius: 6px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #fff;
-  position: relative;
-}
+  .price-card {
+    width: 380px;
+    margin: 10px 0;
+    border: 1px solid #f4f4f4;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    position: relative;
+  }
 
-.hot-img {
-  width: 64px;
-  height: 64px;
-  position: absolute;
-  left: -10px;
-}
+  .hot-img {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    left: -10px;
+  }
 
-.price-card:hover {
-  transform: translateY(-20px);
-  transition: all 0.5s;
-}
+  .price-card:hover {
+    transform: translateY(-20px);
+    transition: all 0.5s;
+  }
 
-.price-card:hover .card-title {
-  color: darkblue;
-  border-bottom: 1px solid darkblue;
-  transition: all 0.5s;
-}
+  .price-card:hover .card-title {
+    color: darkblue;
+    border-bottom: 1px solid darkblue;
+    transition: all 0.5s;
+  }
 
-.small-price-card {
-  width: 166px;
-  height: 166px;
-}
+  .small-price-card {
+    width: 166px;
+    height: 166px;
+  }
 
-.card-title {
-  font-size: 26px;
-  font-weight: 800;
-  color: #111;
-  border-bottom: 1px solid #333;
-  padding: 10px 30px;
-}
+  .card-title {
+    font-size: 26px;
+    font-weight: 800;
+    color: #111;
+    border-bottom: 1px solid #333;
+    padding: 10px 30px;
+  }
 
-.card-info {
-  display: flex;
-  flex-direction: column;
-  border-bottom: 1px solid #eee;
-  margin-top: 30px;
-  font-weight: 600;
-  width: 90%;
-  padding: 10px 0;
-  text-align: center;
-}
+  .card-info {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #eee;
+    margin-top: 30px;
+    font-weight: 600;
+    width: 90%;
+    padding: 10px 0;
+    text-align: center;
+  }
 
-.card-info > span {
-  font-size: 16px;
-  color: #888;
-  margin: 6px 0;
-}
+  .card-info > span {
+    font-size: 16px;
+    color: #888;
+    margin: 6px 0;
+  }
 
-.price-content {
-  display: flex;
-  padding: 40px 0;
-  flex-direction: row;
-  align-items: center;
-  margin-top: 16px;
-}
+  .price-content {
+    display: flex;
+    padding: 40px 0;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 16px;
+  }
 
-.price-number {
-  font-size: 32px;
-  font-weight: 800;
-  color: #25262a;
-  letter-spacing: 2px;
-}
+  .price-number {
+    font-size: 32px;
+    font-weight: 800;
+    color: #25262a;
+    letter-spacing: 2px;
+  }
 
-.price-line {
-  width: 2px;
-  height: 30px;
-  background-color: #555;
-  transform: skew(-25deg);
-  margin: 0px 12px;
-}
+  .price-line {
+    width: 2px;
+    height: 30px;
+    background-color: #555;
+    transform: skew(-25deg);
+    margin: 0px 12px;
+  }
 
-.price-prefix {
-  font-size: 24px;
-  color: #777;
-  margin-left: -4px;
-}
+  .price-prefix {
+    font-size: 24px;
+    color: #777;
+    margin-left: -4px;
+  }
 </style>
